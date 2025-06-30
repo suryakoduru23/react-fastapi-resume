@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiBase = "http://localhost:8000"; // Change if backend runs elsewhere
+const apiBase = "https://react-fastapi-resume-tgo3.onrender.com"; // Change if backend runs elsewhere
 
 const CreateResume = ({ setResume }) => {
   const navigate = useNavigate();
