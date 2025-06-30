@@ -1,0 +1,38 @@
+{
+  "firstName": "SURYANARAYANA",
+  "middleName": "",
+  "lastName": "koduru",
+  "emailId": "20MH1A4229@ACOE.EDU.IN",
+  "contactNumber": "08688194748",
+  "address": "NEAR RAILWAY STATION KOTNI VEEDHI",
+  "city": "Anakapalle",
+  "state": "ANDHRA PRADESH",
+  "pincode": "531001",
+  "nationality": "indian",
+  "heading": {
+    "heading": "fullstack (Enhanced \u2728) ",
+    "summary": "dsfSDFSDF (Enhanced \u2728)"
+  },
+  "education": [
+    {
+      "course": "fdfk; (Enhanced \u2728)",
+      "college": "sjkfs",
+      "board": "sadj\\sd",
+      "percentage": "566",
+      "yearOfPass": "2024"
+    }
+  ],
+  "experience": [
+    {
+      "organisation": "",
+      "designation": "",
+      "from": "",
+      "to": ""
+    }
+  ],
+  "skills": [
+    {
+      "skillName": "java"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  position: relative;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  background: rgb(10, 209, 10);
+  color: white;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header .logo h2 {
+  margin: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header .navbar .link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.header .navbar .link:hover {
+  background-color: rgba(17, 175, 17, 0.832);
+}
+/* homepage */
+.carouselClass{
+  position: relative;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carouselClass .arrow{
+  position: absolute;
+  top:35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 50px;
+  font-size: 60px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #FFF;
+  transition: all .3s ease-in-out;
+}
+.carouselClass .arrow p{
+  background: rgba(14, 13, 13, 0.297);
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+  border-radius: 10px;
+  justify-content: space-around;
+  transition: all .4s ease-in-out;
+}
+.carouselClass .arrow p:hover{
+  background: rgba(14, 13, 13, 0.585);
+}
+.carouselClass .prev{
+  left: 10px;
+}
+.carouselClass .next{
+  right: 10px;
+}
+.carouselClass img{
+  margin-top: 20px;
+  height: 80vh;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: rgb(10, 209, 10);
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Form Section Headings */
+h4.text-secondary {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Section Card */
+.border.p-3.mb-3 {
+  background-color: #fdfdfd;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume Preview Styling */
+.resume-preview .resume-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+.resume-preview header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1rem;
+}
+.resume-preview header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+.resume-preview .section {
+  margin-top: 2rem;
+}
+.resume-preview .section h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+  color: #2c3e50;
+}
+.resume-preview .education-entry,
+.resume-preview .experience-entry {
+  margin-bottom: 1rem;
+}
+.resume-preview .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.resume-preview .skills-list li {
+  background: #3498db;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+/* Buttons */
+.btn-add,
+.btn-delete {
+  font-size: 14px;
+  padding: 6px 10px;
+  margin-top: 10px;
+}
+.btn-add {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.btn-add:hover {
+  background-color: #218838;
+}
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+.btn-delete:hover {
+  background-color: #c82333;
+}
